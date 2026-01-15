@@ -1,0 +1,307 @@
+/* Our Approach to Matchmaking */
+section.our-approach {
+  padding: 250px 0px 0px 0px;
+}
+
+section.our-approach .top {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+
+section.our-approach .top h1 {
+  font-size: 6.4rem;
+  font-family: var(--primary-font);
+  font-family: 500;
+  line-height: 100%;
+  color: var(--secndary-text-color-dark);
+  max-width: 488px;
+  width: 100%;
+}
+
+section.our-approach .top p {
+  font-size: 1.8rem;
+  font-family: var(--primary-font);
+  font-family: 400;
+  line-height: 140%;
+  color: var(--secndary-text-color-gray);
+  max-width: 286px;
+  width: 100%;
+}
+
+section.our-approach .our-story {
+  margin-top: 50px;
+  position: relative;
+}
+
+section.our-approach .our-story img {
+  max-width: 100vw;
+  width: 100%;
+}
+
+section.our-approach .our-story .our-story-content {
+  background: var(--secndary-bg-color);
+  padding: 24px 22px;
+  position: absolute;
+  bottom: 60px;
+  right: 0;
+  max-width: 567px;
+  width: 100%;
+  border-radius: 20px 0px 0px 20px;
+}
+
+section.our-approach .our-story .our-story-content h3 {
+  font-size: 3.8rem;
+  font-family: var(--primary-font);
+  font-family: 500;
+  line-height: 100%;
+  color: var(--primary-text-color);
+}
+
+section.our-approach .our-story .our-story-content p {
+  font-size: 1.8rem;
+  font-family: var(--primary-font);
+  font-family: 400;
+  line-height: 140%;
+  color: var(--primary-text-color);
+  margin-top: 10px;
+}
+
+/* Our Methodology */
+section.methodology {
+  padding: 100px 20px 60px 20px;
+}
+
+section.methodology .content {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  gap: 40px;
+}
+
+section.methodology .content :is(.left, .right) {
+  max-width: 538px;
+  width: 100%;
+}
+
+section.methodology .content .left h1 {
+  font-size: 6.4rem;
+  font-family: var(--primary-font);
+  font-family: 500;
+  line-height: 100%;
+  color: var(--secndary-text-color-dark);
+}
+
+section.methodology .content .right p {
+  font-size: 1.8rem;
+  font-family: var(--primary-font);
+  font-family: 400;
+  line-height: 140%;
+  color: var(--secndary-text-color-gray);
+}
+
+section.methodology .content .right h2 {
+  font-size: 3.8rem;
+  font-family: var(--primary-font);
+  font-family: 500;
+  line-height: 140%;
+  color: var(--secndary-text-color-dark);
+  margin-top: 40px;
+}
+
+/* counter section */
+section.counter .content {
+  padding: 34px 20px 100px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+section.counter .content div {
+  max-width: 340px;
+  width: 100%;
+}
+
+section.counter p {
+  font-size: 1.8rem;
+  font-family: var(--primary-font);
+  font-family: 400;
+  line-height: 140%;
+  color: var(--secndary-text-color-gray);
+}
+
+section.counter h1 {
+  font-size: 7.8rem;
+  font-family: var(--primary-font);
+  font-family: 500;
+  line-height: 120%;
+  color: var(--secndary-text-color-dark);
+  margin-top: 20px;
+}
+
+/* Guidance & Support */
+section.support {
+  padding: 100px 20px 100px 20px;
+}
+
+section.support .content {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+
+section.support .content .left {
+  max-width: 558px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+section.support .content .left .box {
+  padding: 40px;
+  background: #f9efe7;
+  display: flex;
+  align-items: start;
+  border-radius: 30px;
+  gap: 16px;
+}
+
+section.support .content .left .box img {
+  width: 48px;
+}
+
+section.support .content .left .box h4 {
+  font-size: 2rem;
+  font-family: var(--primary-font);
+  font-family: 500;
+  line-height: 28px;
+  color: var(--secndary-text-color-dark);
+}
+
+section.support .content .left .box p {
+  font-size: 1.8rem;
+  font-family: var(--primary-font);
+  font-family: 400;
+  line-height: 140%;
+  color: var(--secndary-text-color-gray);
+  margin-top: 10px;
+}
+
+section.support .content .right {
+  max-width: 538px;
+  width: 100%;
+}
+
+section.support .content .right h1 {
+  font-size: 6.4rem;
+  font-family: var(--primary-font);
+  font-family: 500;
+  line-height: 100%;
+  color: var(--secndary-text-color-dark);
+}
+
+section.support .content .right p {
+  font-size: 1.8rem;
+  font-family: var(--primary-font);
+  font-family: 400;
+  line-height: 140%;
+  color: var(--secndary-text-color-gray);
+  margin-top: 20px;
+}
+
+/* Ready to Begin Your Journey? */
+section.journey {
+  padding: 100px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+section.journey h1 {
+  font-size: 6.4rem;
+  font-family: var(--primary-font);
+  font-family: 500;
+  line-height: 100%;
+  color: var(--secndary-text-color-dark);
+}
+
+section.journey p {
+  font-size: 1.8rem;
+  font-family: var(--primary-font);
+  font-family: 400;
+  line-height: 140%;
+  color: var(--secndary-text-color-gray);
+  max-width: 626px;
+  width: 100%;
+  margin-top: 10px;
+  text-align: center;
+}
+
+section.journey button {
+  margin-top: 40px;
+}
+
+section.journey button,
+section.journey button::after {
+  background: var(--secndary-bg-color);
+  color: var(--primary-text-color);
+}
+
+/* The Choice That Matters */
+section.choice-matters {
+  padding: 120px 20px;
+}
+
+section.choice-matters .content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 48px;
+}
+
+section.choice-matters .content :is(.left, .right) {
+  width: 100%;
+}
+
+section.choice-matters .content .left img {
+  width: 100%;
+  border-radius: 40px;
+}
+
+section.choice-matters .content .right h1 {
+  font-size: 6.4rem;
+  font-family: var(--primary-font);
+  font-family: 500;
+  line-height: 100%;
+  color: var(--secndary-text-color-dark);
+  max-width: 430px;
+  width: 100%;
+}
+
+section.choice-matters .content .right .paragrap {
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+section.choice-matters .content .right p {
+  font-size: 1.8rem;
+  font-family: var(--primary-font);
+  font-family: 400;
+  line-height: 27px;
+  color: var(--secndary-text-color-gray);
+}
+
+section.choice-matters .content .right button {
+    margin-top: 30px;
+}
+
+section.choice-matters .content button,
+section.choice-matters .content button::after {
+  background: var(--secndary-bg-color);
+  color: var(--primary-text-color);
+}
