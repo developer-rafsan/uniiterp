@@ -27,26 +27,28 @@
 
   /* text color */
   --primary-text-color: #ffffff;
-  --secndary-text-color-dark : #181514;
-  --secndary-text-color-gray : #6A6A6A;
+  --secndary-text-color-dark: #181514;
+  --secndary-text-color-gray: #6a6a6a;
   --action-color: #fdf3ec;
 
   /* bg color */
-  --primary-bg-color: #FDF3EC;
-  --secndary-bg-color: #6B0606;
+  --primary-bg-color: #fdf3ec;
+  --secndary-bg-color: #6b0606;
 }
 
 html {
   font-size: 62.5%;
 }
 
-html,body {
-    width: 100%;
-    overflow-x: hidden;
-    background: var(--primary-bg-color);
+html,
+body {
+  width: 100%;
+  overflow-x: hidden;
+  background: var(--primary-bg-color);
 }
 
-a,li {
+a,
+li {
   text-decoration: none;
   color: inherit;
   list-style: none;
@@ -75,9 +77,10 @@ button.default {
   border-radius: 30px;
   height: 58px;
   font-family: var(--primary-font);
-  font-size: 1.rem;
+  font-size: 1.8rem;
   padding: 0px 24px;
   position: relative;
+  transform: translateX(-30px);
 }
 
 button.default::after {
@@ -99,8 +102,6 @@ button.default::after {
   align-items: center;
 }
 
-
-
 /* header */
 header {
   width: 100%;
@@ -110,19 +111,20 @@ header {
   z-index: 99;
 }
 
-header img {
-  max-width: 377px;
-  width: 100%;
-}
-
 header .content {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-header .content svg {
-  width: 83px;
+header .content .left-site img {
+  max-width: 377px;
+  width: 100%;
+}
+
+header .content .right-site img {
+  max-width: 83px;
+  width: 100%;
 }
 
 /* header drop down menu section */
@@ -141,14 +143,14 @@ header .drop-down-menu.active {
   left: 0;
   overflow: hidden;
   height: 0px;
-  transition: .3s;
+  transition: 0.3s;
   pointer-events: none;
   backdrop-filter: blur(10px);
 }
 
 .drop-down-menu .top {
   background: var(--secndary-bg-color);
-  padding: 70px 20px 70px 20px;
+  padding: 40px 20px 70px 20px;
 }
 
 .drop-down-menu .top div:nth-child(1) {
@@ -163,7 +165,7 @@ header .drop-down-menu.active {
 }
 
 .drop-down-menu .top .menu-close-icons {
-  max-width: 377px;
+  max-width: 83px;
   width: 100%;
   width: 83px;
   cursor: pointer;
@@ -186,4 +188,57 @@ header .drop-down-menu.active {
   justify-content: center;
   align-items: center;
   color: var(--primary-text-color);
+}
+
+@media screen and (max-width: 1380px) {
+  header .content .left-site img,
+  .drop-down-menu .top .logo {
+    max-width: 277px;
+  }
+
+  header .content .right-site img,
+  .drop-down-menu .top .menu-close-icons {
+    max-width: 53px;
+  }
+}
+
+@media screen and (max-width: 1260px) {
+  section.realPeople .card:nth-child(even) .left .content {
+    padding: 196px 20px 56px 20px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  header .content .left-site img,
+  .drop-down-menu .top .logo {
+    max-width: 200px;
+  }
+
+  button.default {
+    height: 48px;
+    font-family: var(--primary-font);
+    font-size: 2rem;
+    transform: translateX(-24px);
+  }
+
+  button.default::after {
+    height: 48px;
+    width: 48px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  header .content .left-site img,
+  .drop-down-menu .top .logo {
+    max-width: 150px;
+  }
+
+  header .content .right-site img,
+  .drop-down-menu .top .menu-close-icons {
+    max-width: 43px;
+  }
+
+  button.default {
+    font-size: 3rem;
+  }
 }

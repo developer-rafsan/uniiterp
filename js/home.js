@@ -35,6 +35,10 @@ createInfiniteSlider(sliderWrapersecend, 0.7);
 // Member Reflections slider
 const swiper = new Swiper(".swiper", {
     slidesPerView: 2,
+    breakpoints: {
+        0: { slidesPerView: 1 },
+        600: { slidesPerView: 2 },
+    },
     spaceBetween: 20,
     loop: true,
     speed: 1000,

@@ -1,0 +1,482 @@
+/* hero section */
+section.hero {
+  min-height: 1095px;
+  height: 100%;
+  background: url(../media/hero-bg.jpg) no-repeat;
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+
+section.hero .content {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: linear-gradient(to bottom, #6b060600 0%, #6b0606 100%);
+  padding: 0px 20px;
+  padding-bottom: 96px;
+}
+
+section.hero .content h1 {
+  font-size: 8.4rem;
+  line-height: 100%;
+  font-family: var(--primary-font);
+  color: var(--primary-text-color);
+  text-align: center;
+}
+
+section.hero button {
+  margin-top: 30px;
+}
+
+/* bird section */
+section.bird {
+  background: linear-gradient(#6b0606, #fdf3ec);
+  padding: 185px 20px;
+}
+
+section.bird .content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 112px;
+}
+
+section.bird .counter {
+  text-align: center;
+}
+
+section.bird .content h4 {
+  font-size: 7.4rem;
+  font-family: var(--primary-font);
+  line-height: 100%;
+  font-weight: 500;
+  color: var(--primary-text-color);
+}
+
+section.bird .content p {
+  font-size: 2rem;
+  font-weight: 400;
+  font-family: var(--primary-font);
+  line-height: 120%;
+  color: var(--primary-text-color);
+  margin-top: 16px;
+}
+
+section.bird .center {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+section.bird .center img {
+  max-width: 668px;
+  width: 100%;
+}
+
+/* real people */
+section.realPeople {
+  padding: 100px 0px 0px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: var(--primary-bg-color);
+}
+
+section.realPeople h1 {
+  font-family: var(--primary-font);
+  font-size: 6.4rem;
+  font-weight: 500;
+  text-align: center;
+}
+
+section.realPeople .card-group {
+  margin-top: 80px;
+  width: 100%;
+}
+
+section.realPeople .card {
+  display: flex;
+}
+
+section.realPeople .card .left {
+  display: flex;
+  flex-direction: column;
+  align-items: var(--aline);
+}
+
+section.realPeople .card .left,
+section.realPeople .card .right {
+  width: 100%;
+  order: var(--order);
+}
+
+section.realPeople .card:nth-child(odd) .left .content {
+  padding: 196px 20px 56px 20px;
+}
+
+section.realPeople .card:nth-child(even) .left .content {
+  padding: 196px 0px 56px 60px;
+}
+
+section.realPeople .card .left .content {
+  padding: 196px 0px 56px 0px;
+  max-width: 660px;
+  width: 100%;
+}
+
+section.realPeople .card img {
+  max-width: 540px;
+  width: 100%;
+}
+
+section.realPeople .card .left h3 {
+  font-family: var(--primary-font);
+  font-weight: 400;
+  font-size: 5.4rem;
+  color: var(--secndary-text-color-dark);
+  line-height: 100%;
+  margin-top: 60px;
+  width: 100%;
+}
+
+section.realPeople .card:nth-child(even) .left :is(h3, p) {
+  color: var(--primary-text-color);
+}
+
+section.realPeople .card .left p {
+  font-size: 2.4rem;
+  font-weight: 400;
+  font-family: var(--primary-font);
+  line-height: 140%;
+  color: var(----secndary-text-color-gray);
+  margin-top: 10px;
+  width: 100%;
+}
+
+section.realPeople .card:nth-child(even) .left {
+  background: var(--secndary-bg-color);
+}
+
+section.realPeople .card:nth-child(1) .right {
+  background: url("../media/realpeoplecard1.jpg") no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+section.realPeople .card:nth-child(2) .right {
+  background: url("../media/realpeoplecard2.jpg") no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+section.realPeople .card:nth-child(3) .right {
+  background: url("../media/realpeoplecard3.jpg") no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+section.realPeople .card:nth-child(4) .right {
+  background: url("../media/realpeoplecard4.jpg") no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+section.realPeople button {
+  background: var(--secndary-bg-color);
+  color: var(--primary-text-color);
+  margin-top: 120px;
+}
+
+section.realPeople button::after {
+  background: var(--secndary-bg-color);
+  color: var(--primary-text-color);
+}
+
+/* slider section */
+section.infinite-slider {
+  background: var(--primary-bg-color);
+  padding: 60px 0px 120px 0px;
+}
+
+section.infinite-slider .slider {
+  overflow: hidden;
+  width: 100%;
+}
+
+section.infinite-slider .slider:nth-child(2) {
+  margin-top: 30px;
+}
+
+section.infinite-slider .slider-wraper {
+  display: flex;
+  gap: 30px;
+  will-change: transform;
+}
+
+section.infinite-slider .slider .card {
+  min-width: 562px;
+  height: 350px;
+  border-radius: 36px;
+  overflow: hidden;
+}
+
+section.infinite-slider .slider .card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Member Reflections */
+section.member-reflections {
+  padding: 60px 20px 70px 20px;
+  background: var(--primary-bg-color);
+}
+
+section.member-reflections h1 {
+  font-size: 6.4rem;
+  font-family: var(--primary-font);
+  font-weight: 500;
+}
+
+section.member-reflections .swiper {
+  margin-top: 40px;
+}
+
+section.member-reflections .swiper-wrapper .card {
+  background: var(--secndary-bg-color);
+  padding: 42px;
+  border-radius: 42px;
+}
+
+section.member-reflections .swiper-wrapper .card p {
+  font-size: 3.2rem;
+  line-height: 120%;
+  font-family: var(--primary-font);
+  color: var(--primary-text-color);
+  font-weight: 500;
+}
+
+section.member-reflections .swiper-wrapper .card .bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 2.4rem;
+  font-weight: 400;
+  margin-top: 57px;
+  font-family: var(--primary-font);
+  color: var(--primary-text-color);
+}
+
+section.member-reflections .slider-buttons {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 10px;
+}
+
+section.member-reflections button {
+  height: 54px;
+  width: 54px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--secndary-bg-color);
+  border-radius: 50%;
+  color: var(--primary-text-color);
+  margin-top: 40px;
+  font: 2.2rem;
+}
+
+@media screen and (max-width: 1380px) {
+  html {
+    font-size: 50.5%;
+  }
+
+  section.bird .center img {
+    max-width: 468px;
+  }
+}
+
+@media screen and (max-width: 1260px) {
+  section.realPeople .card:nth-child(even) .left .content {
+    padding: 196px 20px 56px 20px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  html {
+    font-size: 40%;
+  }
+
+  section.bird {
+    padding: 100px 20px;
+  }
+
+  section.bird .center img {
+    max-width: 368px;
+  }
+
+  section.member-reflections .swiper-wrapper .card {
+    padding: 30px;
+    border-radius: 30px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  html {
+    font-size: 40.5%;
+  }
+
+  section.bird .center img {
+    max-width: 268px;
+  }
+
+  section.realPeople .card:nth-child(odd) .left .content {
+    padding: 60px 20px 20px 20px;
+  }
+
+  section.realPeople .card:nth-child(even) .left .content {
+    padding: 60px 20px 20px 20px;
+  }
+
+  section.infinite-slider .slider .card {
+    min-width: 450px;
+    height: 300px;
+  }
+
+  section.member-reflections .swiper-wrapper .card {
+    padding: 20px;
+    border-radius: 20px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  html {
+    font-size: 35.5%;
+  }
+
+  section.hero {
+    min-height: 700px;
+  }
+
+  section.bird .content {
+    gap: 60px;
+  }
+
+  section.bird .center img {
+    max-width: 168px;
+  }
+
+  section.realPeople .card .left h3 {
+    font-size: 4rem;
+    margin-top: 40px;
+  }
+  section.realPeople .card .left p {
+    font-size: 2rem;
+  }
+
+  section.infinite-slider .slider .card {
+    min-width: 400px;
+    height: 250px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  html {
+    font-size: 25.5%;
+  }
+
+  section.hero .content h1 {
+    font-size: 7rem;
+  }
+
+  section.bird {
+    padding: 60px 20px;
+  }
+
+  section.bird .content {
+    gap: 40px;
+  }
+  section.bird .content h4 {
+    font-size: 3.4rem;
+  }
+
+  section.bird .content p {
+    font-size: 1.4rem;
+    margin-top: 10px;
+  }
+
+  section.bird .center .counter:nth-child(1) {
+    text-align: left;
+  }
+
+  section.bird .center .counter:nth-child(2) {
+    text-align: right;
+  }
+
+  section.bird .center img {
+    max-width: 120px;
+  }
+
+  section.realPeople .card {
+    flex-direction: column;
+  }
+
+  section.realPeople .card .right {
+    height: 400px;
+  }
+  section.realPeople .card:nth-child(odd) .left .content {
+    padding: 60px 20px 60px 20px;
+  }
+
+  section.realPeople .card:nth-child(even) .left .content {
+    padding: 60px 20px 60px 20px;
+  }
+
+  section.realPeople .card .left,
+  section.realPeople .card .right {
+    width: 100%;
+    order: unset;
+  }
+
+  section.realPeople .card .left h3 {
+    font-size: 7.4rem;
+    text-align: center;
+  }
+  section.realPeople .card .left p {
+    font-size: 3.4rem;
+    text-align: center;
+  }
+
+  section.infinite-slider {
+    padding: 60px 0px 60px 0px;
+  }
+
+  section.infinite-slider .slider .card {
+    min-width: 300px;
+    height: 200px;
+  }
+
+  section.realPeople button {
+    margin-top: 60px;
+  }
+
+  section.member-reflections h1 {
+    text-align: center;
+  }
+
+  section.member-reflections .slider-buttons {
+    justify-content: center;
+  }
+  section.member-reflections .swiper-wrapper .card p {
+    font-size: 4.5rem;
+  }
+}

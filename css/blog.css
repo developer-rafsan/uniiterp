@@ -1,0 +1,180 @@
+section.blog-hero {
+  min-height: 874px;
+  display: flex;
+  align-items: end;
+  background: url("/media/blog-hero-bg.jpg") no-repeat center bottom / cover;
+  padding: 100px 20px 100px 20px;
+}
+
+section.blog-hero .content {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+
+section.blog-hero .content h1 {
+  max-width: 422px;
+  width: 100%;
+  font-size: 6.4rem;
+  line-height: 100%;
+  font-weight: 500;
+  color: var(--primary-text-color);
+  font-family: var(--primary-font);
+}
+
+section.blog-hero .content p {
+  max-width: 379px;
+  width: 100%;
+  font-size: 1.8rem;
+  line-height: 140%;
+  font-weight: 400;
+  color: var(--primary-text-color);
+  font-family: var(--primary-font);
+}
+
+section.blog {
+  padding: 100px 20px 100px 20px;
+}
+section.blog > .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+section.blog .content ul.catagory {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+
+section.blog .content ul.catagory li {
+  padding: 16px 24px;
+  font-size: 1.6rem;
+  font-family: var(--primary-font);
+  color: var(--secndary-text-color-gray);
+  font-weight: 400;
+  border-radius: 32px;
+  border: 1px solid #F5E1D4;
+  cursor: pointer;
+}
+section.blog .content ul.catagory li.active {
+  background: var(--secndary-bg-color);
+  color: var(--action-color);
+}
+
+section.blog .content .blogs {
+  margin-top: 60px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 19px;
+}
+
+section.blog .content .blogs .card {
+  border-radius: 34px;
+  position: relative;
+  overflow: hidden;
+}
+
+section.blog .content .blogs .card .card-body > img {
+  width: 100%;
+  height: 614px;
+  object-fit: cover;
+}
+
+section.blog .content .blogs .card .card-content {
+  position: absolute;
+  bottom: 11px;
+  left: 50%;
+  width: 95%;
+  transform: translateX(-50%);
+  background: var(--action-color);
+  padding: 14px 19px;
+  border-radius: 28px;
+}
+
+section.blog .content .blogs .card .card-content .data-time {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+section.blog .content .blogs .card .card-content .data-time li > img {
+  max-width: 10px;
+  width: 100%;
+  margin-right: 5px;
+}
+
+section.blog .content .blogs .card .card-content .data-time li {
+  font-size: 1.2rem;
+  font-family: var(--primary-font);
+  line-height: 120%;
+  color: var(--secndary-text-color-gray);
+  font-weight: 400;
+}
+
+section.blog .content .blogs .card .card-content h3 {
+  font-size: 1.8rem;
+  font-family: var(--primary-font);
+  line-height: 120%;
+  font-weight: 500;
+  color: var(--secndary-text-color-dark);
+  margin-top: 10px;
+}
+
+section.blog .content .blogs .card .card-content p {
+  font-size: 1.6rem;
+  font-family: var(--primary-font);
+  line-height: 140%;
+  font-weight: 400;
+  color: var(--secndary-text-color-gray);
+  margin-top: 6px;
+}
+
+section.blog .content .blogs .card .card-content hr {
+  background: #e9dcd2;
+  height: 1px;
+  width: 100%;
+  margin-top: 10px;
+}
+
+section.blog .content .blogs .card .card-content .info {
+  margin-top: 19px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+section.blog .content .blogs .card .card-content .info h5 {
+  font-size: 1.6rem;
+  font-family: var(--primary-font);
+  line-height: 120%;
+  font-weight: 500;
+  color: var(--secndary-text-color-dark);
+}
+
+section.blog .content .blogs .card .card-content .info p {
+  font-size: 1.2rem;
+  font-family: var(--primary-font);
+  line-height: 120%;
+  font-weight: 400;
+  color: var(--secndary-text-color-gray);
+}
+
+section.blog .content .blogs .card .card-content .info img {
+    max-width: 47px;
+    width: 100%;
+}
+
+section.blog .content button#load-more {
+    background: var(--secndary-bg-color);
+    color: var(--action-color);
+    padding: 17px 52px;
+    margin-top: 60px;
+}
+
+section.blog .content button#load-more::after {
+    background: var(--secndary-bg-color);
+    color: var(--action-color);
+}
