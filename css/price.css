@@ -94,7 +94,7 @@ section.faq .left {
     justify-content: end;
     align-items: start;
     flex-direction: column;
-    background: url('/media/faq-bg.jpg') no-repeat center bottom / cover;
+    background: url('../media/faq-bg.jpg') no-repeat center bottom / cover;
     display: flex;
     justify-content: end;
     align-items: end;

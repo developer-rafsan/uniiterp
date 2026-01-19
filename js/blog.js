@@ -58,10 +58,10 @@ function displayBlog(blogs) {
           <div class="card-content">
             <ul class="data-time">
               <li>
-                <img src="/media/calander.svg" alt="calendar" /> ${date}
+                <img src="../media/calander.svg" alt="calendar" /> ${date}
               </li>
               <li>
-                <img src="/media/clock.svg" alt="clock" /> ${time}
+                <img src="../media/clock.svg" alt="clock" /> ${time}
               </li>
             </ul>
 
@@ -76,7 +76,7 @@ function displayBlog(blogs) {
                 <p>${designation}</p>
               </div>
               <div class="right">
-                <img src="/media/arrow-blog.svg" alt="arrow" />
+                <img src="../media/arrow-blog.svg" alt="arrow" />
               </div>
             </div>
           </div>

@@ -8,7 +8,7 @@ export const blogData = [
         "name" : "Dr. Michael Torres",
         "designation" : "Behavioral Scientist",
         "catagory": "Matchmaking Insights",
-        "image" : "/media/blog1.jpg"
+        "image" : "../media/blog1.jpg"
     },
     {
         "id" : 2,
@@ -19,7 +19,7 @@ export const blogData = [
         "name" : "Dr. Michael Torres",
         "designation" : "Behavioral Scientist",
         "catagory": "Matchmaking Insights",
-        "image" : "/media/blog1.jpg"
+        "image" : "../media/blog1.jpg"
     },
     {
         "id" : 3,
@@ -30,7 +30,7 @@ export const blogData = [
         "name" : "Dr. Michael Torres",
         "designation" : "Behavioral Scientist",
         "catagory": "Relationship Advice",
-        "image" : "/media/blog1.jpg"
+        "image" : "../media/blog1.jpg"
     },
     {
         "id" : 3,
@@ -41,7 +41,7 @@ export const blogData = [
         "name" : "Dr. Michael Torres",
         "designation" : "Behavioral Scientist",
         "catagory": "Matchmaking Insights",
-        "image" : "/media/blog1.jpg"
+        "image" : "../media/blog1.jpg"
     },
     {
         "id" : 3,
@@ -52,7 +52,7 @@ export const blogData = [
         "name" : "Dr. Michael Torres",
         "designation" : "Behavioral Scientist",
         "catagory": "Success Stories",
-        "image" : "/media/blog1.jpg"
+        "image" : "../media/blog1.jpg"
     },
     {
         "id" : 3,
@@ -63,7 +63,7 @@ export const blogData = [
         "name" : "Dr. Michael Torres",
         "designation" : "Behavioral Scientist",
         "catagory": "Success Stories",
-        "image" : "/media/blog1.jpg"
+        "image" : "../media/blog1.jpg"
     },
     {
         "id" : 3,
@@ -74,7 +74,7 @@ export const blogData = [
         "name" : "Dr. Michael Torres",
         "designation" : "Behavioral Scientist",
         "catagory": "Matchmaking Insights",
-        "image" : "/media/blog1.jpg"
+        "image" : "../media/blog1.jpg"
     },
     {
         "id" : 4,
@@ -85,7 +85,7 @@ export const blogData = [
         "name" : "Dr. Michael Torres",
         "designation" : "Behavioral Scientist",
         "catagory": "Matchmaking Insights",
-        "image" : "/media/blog1.jpg"
+        "image" : "../media/blog1.jpg"
     },
     {
         "id" : 5,
@@ -96,7 +96,7 @@ export const blogData = [
         "name" : "Dr. Michael Torres",
         "designation" : "Behavioral Scientist",
         "catagory": "Matchmaking Insights",
-        "image" : "/media/blog1.jpg"
+        "image" : "../media/blog1.jpg"
     },
     {
         "id" : 6,
@@ -107,7 +107,7 @@ export const blogData = [
         "name" : "Dr. Michael Torres",
         "designation" : "Behavioral Scientist",
         "catagory": "Matchmaking Insights",
-        "image" : "/media/blog1.jpg"
+        "image" : "../media/blog1.jpg"
     },
     {
         "id" : 7,
@@ -118,7 +118,7 @@ export const blogData = [
         "name" : "Dr. Michael Torres",
         "designation" : "Behavioral Scientist",
         "catagory": "Dating Tips",
-        "image" : "/media/blog1.jpg"
+        "image" : "../media/blog1.jpg"
     },
     {
         "id" : 8,
@@ -129,7 +129,7 @@ export const blogData = [
         "name" : "Dr. Michael Torres",
         "designation" : "Behavioral Scientist",
         "catagory": "Matchmaking Insights",
-        "image" : "/media/blog1.jpg"
+        "image" : "../media/blog1.jpg"
     },
     {
         "id" : 9,
@@ -140,7 +140,7 @@ export const blogData = [
         "name" : "Dr. Michael Torres",
         "designation" : "Behavioral Scientist",
         "catagory": "Dating Tips",
-        "image" : "/media/blog1.jpg"
+        "image" : "../media/blog1.jpg"
     },
     {
         "id" : 10,
@@ -151,7 +151,7 @@ export const blogData = [
         "name" : "Dr. Michael Torres",
         "designation" : "Behavioral Scientist",
         "catagory": "Dating Tips",
-        "image" : "/media/blog1.jpg"
+        "image" : "../media/blog1.jpg"
     },
 ]
 
