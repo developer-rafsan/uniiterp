@@ -56,7 +56,7 @@ section.blog .content ul.catagory li {
   color: var(--secndary-text-color-gray);
   font-weight: 400;
   border-radius: 32px;
-  border: 1px solid #F5E1D4;
+  border: 1px solid #f5e1d4;
   cursor: pointer;
 }
 section.blog .content ul.catagory li.active {
@@ -163,18 +163,18 @@ section.blog .content .blogs .card .card-content .info p {
 }
 
 section.blog .content .blogs .card .card-content .info img {
-    max-width: 47px;
-    width: 100%;
+  max-width: 47px;
+  width: 100%;
 }
 
 section.blog .content button#load-more {
-    background: var(--secndary-bg-color);
-    color: var(--action-color);
-    padding: 17px 52px;
-    margin-top: 60px;
+  background: var(--secndary-bg-color);
+  color: var(--action-color);
+  padding: 17px 52px;
+  margin-top: 60px;
 }
 
 section.blog .content button#load-more::after {
-    background: var(--secndary-bg-color);
-    color: var(--action-color);
+  background: var(--secndary-bg-color);
+  color: var(--action-color);
 }
