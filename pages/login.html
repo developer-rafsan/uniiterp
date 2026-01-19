@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Uniite Matchmaking - Blog</title>
+
+    <!-- fave incons -->
+    <link rel="shortcut icon" href="../media/fav.svg" type="image/x-icon" />
+
+    <!-- link css global -->
+    <link rel="stylesheet" href="../css/global.css" />
+    <link rel="stylesheet" href="../css/login.css" />
+
+    <!-- font awesome link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- header sertion -->
+    <header>
+      <div class="content" id="wrap">
+        <!-- left site -->
+        <div class="left-site">
+          <a href="../index.html"
+            ><img src="../media/logo-black.png" alt="logo"
+          /></a>
+        </div>
+
+        <!-- right site -->
+        <div class="right-site">
+          <button id="menu-open-btn">
+            <img src="../media/menu-black.svg" alt="menu icon" />
+          </button>
+        </div>
+      </div>
+      <!-- header drop down menu -->
+      <div class="drop-down-menu" id="drop-down-menu">
+        <div class="top">
+          <div id="wrap">
+            <a href="../index/html"
+              ><img class="logo" src="../media/logo.png" alt="logo"
+            /></a>
+            <img
+              id="menu-close-btn"
+              class="menu-close-icons"
+              src="../media/menu-close-icons.svg"
+              alt="menu close icons"
+            />
+          </div>
+          <div id="wrap">
+            <ul>
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="../pages/our-approach.html">Our Approach</a></li>
+              <li><a href="../pages/pricing.html">Pricing</a></li>
+              <li><a href="../pages/blog.html">Blog</a></li>
+              <li><a href="../pages/login.html">Account</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- login -->
+    <section id="login" class="login">
+      <div class="left"></div>
+      <div class="right">
+        <div class="content">
+          <div class="login-header">
+            <img src="../media/logo-black.png" alt="logo" />
+            <h2>Log in</h2>
+          </div>
+
+          <form id="login-form" class="login-form" action="">
+            <div class="email-input-fill input-fill">
+              <label for="email">Email Address</label>
+              <div>
+                <input type="email" id="email" placeholder="Email" />
+                <img src="../media/form-icons//Vector.png" alt="email icons" />
+              </div>
+            </div>
+            <div class="pass-input-fill input-fill">
+              <div>
+                <input type="password" id="pass" placeholder="Password" />
+                <i id="eyeButton" class="fa-regular fa-eye"></i>
+              </div>
+            </div>
+
+            <button type="submit">Log in</button>
+          </form>
+
+          <div class="login-footer">
+            <h6>Or log in with</h6>
+            <button type="button"> <img src="../media/google-icns.png" alt="google icon"> Google</button>
+            <h6>
+              If you don’t have an account
+              <a href="../pages/signup.html">Sing Up</a>
+            </h6>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- link script file -->
+    <script type="module" src="../js/script.js"></script>
+    <script type="module" src="../js/login.js"></script>
+  </body>
+</html>
