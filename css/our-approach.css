@@ -7,6 +7,7 @@ section.our-approach .top {
   display: flex;
   justify-content: space-between;
   align-items: end;
+  padding: 0px 20px;
 }
 
 section.our-approach .top h1 {
@@ -149,6 +150,7 @@ section.support .content {
   display: flex;
   justify-content: space-between;
   align-items: start;
+  gap: 40px;
 }
 
 section.support .content .left {
@@ -259,7 +261,7 @@ section.choice-matters .content {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 48px;
+  gap: 40px;
 }
 
 section.choice-matters .content :is(.left, .right) {
@@ -298,10 +300,310 @@ section.choice-matters .content .right p {
 
 section.choice-matters .content .right button {
   margin-top: 30px;
+  transform: unset;
 }
 
 section.choice-matters .content button,
 section.choice-matters .content button::after {
   background: var(--secndary-bg-color);
   color: var(--primary-text-color);
+}
+
+@media screen and (max-width: 1380px) {
+  html {
+    font-size: 50.5%;
+  }
+}
+
+@media screen and (max-width: 1260px) {
+  section.our-approach .our-story .our-story-content {
+    max-width: 467px;
+  }
+
+  section.choice-matters .content .right h1 {
+    font-size: 5.4rem;
+  }
+
+  section.choice-matters .content .right .paragrap {
+    margin-top: 20px;
+    gap: 10px;
+  }
+
+  section.choice-matters .content .right p {
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  html {
+    font-size: 40%;
+  }
+
+  section.our-approach .top p {
+    font-size: 2.4rem;
+  }
+
+  section.our-approach .our-story .our-story-content p,
+  section.methodology .content .right p,
+  section.counter p,
+  section.support .content .left .box p,
+  section.support .content .right p,
+  section.journey p,
+  section.choice-matters .content .right p {
+    font-size: 2.4rem;
+  }
+
+  section.counter .content div {
+    max-width: 300px;
+  }
+
+  section.support .content .left .box {
+    padding: 20px;
+  }
+
+  section.support .content .left .box h4 {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  html {
+    font-size: 40.5%;
+  }
+
+  section.our-approach .top {
+    gap: 20px;
+  }
+
+  section.our-approach .our-story .our-story-content {
+    max-width: 367px;
+  }
+
+  section.choice-matters .content .left img {
+    min-height: 450px;
+    object-fit: cover;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  html {
+    font-size: 35.5%;
+  }
+
+  section.our-approach .top {
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  section.our-approach .top h1 {
+    text-align: center;
+    font-size: 8rem;
+  }
+
+  section.our-approach .top p {
+    text-align: center;
+    font-size: 2.5rem;
+  }
+
+  section.methodology {
+    padding: 80px 20px 60px 20px;
+  }
+
+  section.methodology .content {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  section.methodology .content .left h1 {
+    text-align: center;
+  }
+
+  section.methodology .content .right p {
+    text-align: center;
+  }
+
+  section.methodology .content .right h2 {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  section.counter .content {
+    padding: 34px 20px 60px 20px;
+  }
+
+  section.counter .content div:nth-child(2) :is(p, h1) {
+    text-align: center;
+  }
+
+  section.counter .content div:nth-child(3) :is(p, h1) {
+    text-align: end;
+  }
+
+  section.support {
+    padding: 60px 20px 60px 20px;
+  }
+
+  section.support .content {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  section.support .content .left {
+    order: 2;
+  }
+
+  section.support .content .right h1,
+  section.support .content .right p {
+    text-align: center;
+  }
+
+  section.support .content .left {
+    max-width: 350px;
+  }
+
+  section.journey {
+    padding: 60px 20px;
+  }
+
+  section.choice-matters {
+    padding: 60px 20px;
+  }
+
+  section.choice-matters .content {
+    flex-direction: column;
+  }
+
+  section.choice-matters .content .left img {
+    min-height: unset;
+    height: 350px;
+  }
+
+  section.choice-matters .content .right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  section.choice-matters .content .right :is(h1, p) {
+    text-align: center;
+    width: 100%;
+  }
+
+  section.choice-matters .content .right p {
+    font-size: 2.8rem;
+    line-height: 3.8rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  html {
+    font-size: 25.5%;
+  }
+
+  section.our-approach .top h1 {
+    font-size: 10rem;
+  }
+
+  section.our-approach .top p {
+    font-size: 3.5rem;
+  }
+
+  section.our-approach {
+    padding: 150px 0px 0px 0px;
+  }
+
+  section.our-approach .our-story .our-story-content {
+    max-width: unset;
+    bottom: 0;
+    transform: translateY(90%);
+    border-radius: unset;
+  }
+
+  section.our-approach .our-story .our-story-content h3 {
+    text-align: center;
+    font-size: 6rem;
+  }
+
+  section.our-approach .our-story .our-story-content p {
+    text-align: center;
+    font-size: 3rem;
+  }
+
+  section.methodology {
+    padding: 200px 20px 60px 20px;
+  }
+
+  section.methodology .content .left h1 {
+    font-size: 8rem;
+  }
+
+  section.methodology .content .right p {
+    font-size: 3.5rem;
+  }
+
+  section.methodology .content .right h2 {
+    font-size: 5rem;
+  }
+
+  section.counter .content {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  section.counter .content div {
+    width: 45%;
+  }
+
+  section.counter p {
+    align-items: center;
+    font-size: 3.5rem;
+  }
+
+  section.counter .content div:nth-child(1) :is(p, h1) {
+    text-align: center;
+  }
+
+  section.counter .content div:nth-child(3) :is(p, h1) {
+    text-align: center;
+  }
+
+  section.support .content .left {
+    max-width: unset;
+  }
+  section.support .content .right h1 {
+    font-size: 8rem;
+  }
+  section.support .content .right p {
+    font-size: 3.5rem;
+  }
+
+  section.support .content .left .box h4 {
+    font-size: 5rem;
+  }
+
+  section.support .content .left .box p {
+    font-size: 3.5rem;
+  }
+
+  section.journey h1 {
+    font-size: 8rem;
+    text-align: center;
+  }
+
+  section.journey p {
+    font-size: 3.5rem;
+  }
+
+  section.choice-matters .content .right h1 {
+    font-size: 8rem;
+  }
+
+  section.choice-matters .content .right p {
+    font-size: 3.5rem;
+  }
 }

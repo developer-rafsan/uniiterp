@@ -320,6 +320,10 @@ section.member-reflections button {
     padding: 100px 20px;
   }
 
+  section.bird .content p {
+    font-size: 2.5rem;
+  }
+
   section.bird .center img {
     max-width: 368px;
   }
@@ -379,9 +383,6 @@ section.member-reflections button {
     font-size: 4rem;
     margin-top: 40px;
   }
-  section.realPeople .card .left p {
-    font-size: 2rem;
-  }
 
   section.infinite-slider .slider .card {
     min-width: 400px;
@@ -395,7 +396,7 @@ section.member-reflections button {
   }
 
   section.hero .content h1 {
-    font-size: 7rem;
+    font-size: 10rem;
   }
 
   section.bird {
@@ -406,11 +407,11 @@ section.member-reflections button {
     gap: 40px;
   }
   section.bird .content h4 {
-    font-size: 3.4rem;
+    font-size: 6rem;
   }
 
   section.bird .content p {
-    font-size: 1.4rem;
+    font-size: 3rem;
     margin-top: 10px;
   }
 

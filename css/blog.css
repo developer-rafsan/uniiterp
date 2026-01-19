@@ -35,6 +35,7 @@ section.blog-hero .content p {
 section.blog {
   padding: 100px 20px 100px 20px;
 }
+
 section.blog > .content {
   display: flex;
   flex-direction: column;
@@ -177,4 +178,91 @@ section.blog .content button#load-more {
 section.blog .content button#load-more::after {
   background: var(--secndary-bg-color);
   color: var(--action-color);
+}
+
+@media screen and (max-width: 1380px) {
+  html {
+    font-size: 50.5%;
+  }
+}
+
+@media screen and (max-width: 1260px) {
+  section.blog .content .blogs .card .card-body > img {
+    height: 450px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  html {
+    font-size: 40%;
+  }
+
+  section.blog-hero .content p {
+    font-size: 2.3rem;
+  }
+
+  section.blog .content ul.catagory li {
+    font-size: 2rem;
+  }
+
+  section.blog .content .blogs {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  section.blog .content .blogs .card {
+    width: 100%;
+  }
+
+  section.blog .content .blogs .card .card-content .data-time li {
+    font-size: 2rem;
+  }
+
+  section.blog .content .blogs .card .card-content h3 {
+    font-size: 2.5rem;
+  }
+
+  section.blog .content .blogs .card .card-content p {
+    font-size: 2rem;
+  }
+
+  section.blog .content .blogs .card .card-content .info h5 {
+    font-size: 2.3rem;
+  }
+
+  section.blog .content .blogs .card .card-content .info p {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  section.blog .content ul.catagory {
+    gap: 8px;
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  section.blog-hero .content {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  section.blog-hero .content h1 {
+    text-align: center;
+    font-size: 6rem;
+  }
+
+  section.blog-hero .content p {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  section.blog {
+    padding: 60px 20px 60px 20px;
+  }
+
+  section.blog .content .blogs {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
