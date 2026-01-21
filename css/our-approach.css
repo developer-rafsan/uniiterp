@@ -498,6 +498,10 @@ section.choice-matters .content button::after {
     font-size: 2.8rem;
     line-height: 3.8rem;
   }
+
+  section.choice-matters .content .right button {
+    transform: translateX(-30px);
+  }
 }
 
 @media screen and (max-width: 500px) {

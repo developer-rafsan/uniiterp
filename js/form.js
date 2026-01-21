@@ -27,3 +27,6 @@ backBtns.forEach(btn => {
         }
     });
 });
+
+
+showStep(currentStep)

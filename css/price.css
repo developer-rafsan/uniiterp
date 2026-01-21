@@ -68,9 +68,7 @@ section.membership button {
   background: var(--secndary-bg-color);
   color: var(--primary-text-color);
   padding: 0px 50px;
-  font-size: 1.8rem;
   margin-top: 60px;
-  margin-right: 58px;
 }
 
 section.membership button::after {
@@ -84,7 +82,7 @@ section.faq {
 }
 
 section.faq :is(.left, .right) {
-  width: 50%;
+  width: 100%;
 }
 
 section.faq .left {
@@ -168,6 +166,7 @@ section.faq .right .faq-boxs .faq-box .qus h3 {
   height: 100%;
   display: flex;
   align-items: center;
+  line-height: 1.4em;
 }
 
 section.faq .right .faq-boxs .faq-box.active .qus h3 {
@@ -214,9 +213,124 @@ section.faq .right .faq-boxs .faq-box.active .ans {
 
 section.faq .right .faq-boxs .faq-box.active .ans p {
   margin-top: 20px;
-  font-size: 18px;
+  font-size: 1.8rem;
   font-family: var(--primary-font);
   line-height: 140%;
   letter-spacing: -0.31px;
   color: var(--primary-text-color);
+}
+
+@media screen and (max-width: 1380px) {
+  html {
+    font-size: 50.5%;
+  }
+  section.faq .left {
+    padding: 0px 20px 80px 20px;
+  }
+}
+
+@media screen and (max-width: 1260px) {
+}
+
+@media screen and (max-width: 1000px) {
+  html {
+    font-size: 40%;
+  }
+
+  section.membership h6 {
+    font-size: 2.3rem;
+  }
+
+  section.faq .right .faq-boxs {
+    padding: 20px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  html {
+    font-size: 40.5%;
+  }
+
+  section.faq {
+    flex-direction: column;
+  }
+
+  section.faq .left {
+    padding: 100px 20px;
+  }
+  section.faq .left .content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  section.faq .left .content h1 {
+    text-align: center;
+    width: 80%;
+  }
+
+  section.faq .left .content p {
+    text-align: center;
+    font-size: 2.5rem;
+  }
+
+  section.faq .right .faq-boxs .faq-box .qus h3 {
+    font-size: 3.3rem;
+  }
+
+  section.faq .right .faq-boxs .faq-box.active .ans p {
+    font-size: 2rem;
+  }
+
+  section.faq .right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  html {
+    font-size: 35.5%;
+  }
+
+  section.membership {
+    padding: 158px 20px 96px 20px;
+  }
+
+  section.membership h1 {
+    text-align: center;
+  }
+
+  section.membership h6 {
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  section.membership .bottom {
+    justify-content: center;
+  }
+
+  section.faq .right .faq-boxs .faq-box.active .ans p {
+    font-size: 2.3rem;
+  }
+
+  section.faq .right .faq-boxs .faq-box .qus h3 {
+    font-size: 2.5rem;
+    padding: 0px 16px;
+  }
+
+  section.membership .bottom {
+
+  justify-content: center;
+}
+}
+
+@media screen and (max-width: 500px) {
+  html {
+    font-size: 35.5%;
+  }
+  section.membership .box-group {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }

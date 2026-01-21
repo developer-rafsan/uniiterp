@@ -77,7 +77,7 @@ button.default {
   border-radius: 30px;
   height: 58px;
   font-family: var(--primary-font);
-  font-size: 1.8rem;
+  font-size: 18px;
   padding: 0px 24px;
   position: relative;
   transform: translateX(-30px);
@@ -87,7 +87,7 @@ button.default::after {
   content: "\f061";
   font-family: "Font Awesome 7 Free";
   font-weight: 900;
-  font-size: 2rem;
+  font-size: 20px;
 
   position: absolute;
   top: 0;
@@ -182,7 +182,7 @@ header .drop-down-menu.active {
 .drop-down-menu .top div:nth-child(2) ul li {
   width: 100%;
   height: 84px;
-  font-size: 3.8rem;
+  font-size: 38px;
   font-family: var(--primary-font);
   display: flex;
   justify-content: center;
@@ -200,6 +200,10 @@ header .drop-down-menu.active {
   .drop-down-menu .top .menu-close-icons {
     max-width: 53px;
   }
+
+  .drop-down-menu .top div:nth-child(2) ul li {
+    font-size: 28px;
+  }
 }
 
 @media screen and (max-width: 1260px) {
@@ -214,16 +218,20 @@ header .drop-down-menu.active {
     max-width: 200px;
   }
 
-  button.default {
-    height: 48px;
-    font-family: var(--primary-font);
-    font-size: 2rem;
-    transform: translateX(-24px);
+  .drop-down-menu .top div:nth-child(2) ul li {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  header .content .left-site img,
+  .drop-down-menu .top .logo {
+    max-width: 200px;
   }
 
-  button.default::after {
-    height: 48px;
-    width: 48px;
+  .drop-down-menu .top div:nth-child(2) ul {
+    flex-direction: column;
+    gap: 0;
   }
 }
 
@@ -236,9 +244,5 @@ header .drop-down-menu.active {
   header .content .right-site img,
   .drop-down-menu .top .menu-close-icons {
     max-width: 43px;
-  }
-
-  button.default {
-    font-size: 3rem;
   }
 }

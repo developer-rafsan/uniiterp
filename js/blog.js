@@ -53,7 +53,7 @@ function displayBlog(blogs) {
 
     const template = `
       <div class="card">
-        <div class="card-body">
+        <a href="../pages/blog-details.html" class="card-body">
           <img src="${image}" alt="blog image" />
           <div class="card-content">
             <ul class="data-time">
@@ -80,7 +80,7 @@ function displayBlog(blogs) {
               </div>
             </div>
           </div>
-        </div>
+        </a>
       </div>
     `;
 
