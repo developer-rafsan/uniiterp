@@ -1,0 +1,287 @@
+section .header-blog-details {
+  background: var(--secndary-bg-color);
+  padding: 243px 20px 402px 20px;
+}
+
+section .header-blog-details .content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+section .header-blog-details h5 {
+  font-family: var(--primary-font);
+  font-size: 1.6rem;
+  color: var(--primary-text-color);
+  text-align: center;
+  padding: 14px 26px;
+  background: #772929;
+  border-radius: 30px;
+}
+
+section .header-blog-details h1 {
+  font-family: var(--primary-font);
+  font-size: 6.4rem;
+  line-height: 100%;
+  color: var(--primary-text-color);
+  text-align: center;
+  margin-top: 22px;
+  max-width: 882px;
+  width: 100%;
+}
+
+section .future-image {
+  margin-top: calc(-402px + 92px);
+  width: 100%;
+  padding: 0px 20px;
+}
+
+section .future-image img {
+  height: 616px;
+  object-fit: cover;
+  width: 100%;
+  border-radius: 40px;
+}
+
+section .articlr {
+  max-width: 1096px;
+  width: 100%;
+  margin: auto;
+  margin-top: 80px;
+  padding: 0px 20px;
+}
+
+section .articlr h3 {
+  font-family: var(--primary-font);
+  font-size: 3.8rem;
+  line-height: 120%;
+  color: var(--secndary-text-color-dark);
+}
+
+section .articlr h5 {
+  font-family: var(--primary-font);
+  font-size: 2.4rem;
+  line-height: 120%;
+  color: var(--secndary-text-color-dark);
+  font-weight: 400;
+}
+
+section .articlr ul {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+section .articlr li {
+  font-family: var(--primary-font);
+  font-size: 2rem;
+  line-height: 120%;
+  color: var(--secndary-text-color-gray);
+  list-style: circle;
+  margin-left: 40px;
+  margin-top: 8px;
+}
+
+section .articlr p {
+  font-family: var(--primary-font);
+  font-size: 1.8rem;
+  line-height: 120%;
+  color: var(--secndary-text-color-gray);
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+section .articlr img {
+  width: 100%;
+  height: 671px;
+  object-fit: cover;
+  margin: 45px 0px;
+  border-radius: 20px;
+}
+
+section .comment {
+  padding: 0px 20px;
+}
+
+section .comment > div {
+  margin: auto;
+  max-width: 1096px;
+  width: 100%;
+  padding: 40px;
+  border-radius: 40px;
+  border: 1px solid rgba(238, 230, 224, 1);
+  margin-top: 44px;
+}
+
+section .comment h4 {
+  font-family: var(--primary-font);
+  font-size: 3.2rem;
+  font: 500;
+  line-height: 120%;
+  color: var(--secndary-text-color-dark);
+  margin-top: 7px;
+}
+
+section .comment > div > p:first-of-type {
+  font-family: var(--primary-font);
+  font-size: 2rem;
+  font: 500;
+  line-height: 20px;
+  color: rgba(252, 126, 106, 1);
+  margin-top: 7px;
+}
+
+section .comment h5 {
+  font-family: Arial;
+  font-size: 2.4rem;
+  font-weight: 400;
+  line-height: 24px;
+  color: var(--secndary-text-color-dark);
+  margin-top: 20px;
+}
+
+section .comment > div > p:nth-of-type(2) {
+  font-family: var(--primary-font);
+  font-size: 1.8rem;
+  font: 400;
+  line-height: 140%;
+  color: var(--secndary-text-color-gray);
+  margin-top: 10px;
+}
+
+section .comment hr {
+  margin: 20px 0px;
+
+  opacity: 0.3;
+
+  width: 100%;
+}
+
+section .commetnBottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+section :is(.data-time, .commentSocialMedia) {
+  width: 100%;
+}
+
+section .commetnBottom ul {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 24px;
+}
+
+section .commetnBottom ul img {
+  max-width: 16px;
+  width: 100%;
+  margin-right: 8px;
+}
+
+section .commetnBottom ul li {
+  font-family: var(--primary-font);
+  font-size: 1.4rem;
+  font: 400;
+  line-height: 20px;
+  color: var(--secndary-text-color-gray);
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-wrap: nowrap;
+}
+
+section .commentSocialMedia {
+  font-family: var(--primary-font);
+  font-size: 1.4rem;
+  font: 400;
+  line-height: 20px;
+  color: var(--secndary-text-color-gray);
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Ready to Begin Your Journey? */
+section.journey {
+  padding: 100px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+section.journey h1 {
+  font-size: 6.4rem;
+  font-family: var(--primary-font);
+  font-family: 500;
+  line-height: 100%;
+  color: var(--secndary-text-color-dark);
+  text-align: center;
+}
+
+section.journey p {
+  font-size: 1.8rem;
+  font-family: var(--primary-font);
+  font-family: 400;
+  line-height: 140%;
+  color: var(--secndary-text-color-gray);
+  max-width: 626px;
+  width: 100%;
+  margin-top: 10px;
+  text-align: center;
+}
+
+section.journey button {
+  margin-top: 40px;
+}
+
+section.journey button,
+section.journey button::after {
+  background: var(--secndary-bg-color);
+  color: var(--primary-text-color);
+}
+
+@media screen and (max-width: 1260px) {
+  html {
+    font-size: 60%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  html {
+    font-size: 55%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  html {
+    font-size: 50%;
+  }
+
+  section .commetnBottom {
+    flex-direction: column;
+  }
+
+  section .future-image img {
+    height: 450px;
+  }
+
+  section .articlr img {
+    height: 450px;
+  }
+
+  section .comment > div {
+    border-radius: 10px;
+    padding: 16px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  html {
+    font-size: 40%;
+  }
+}

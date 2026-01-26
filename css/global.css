@@ -80,7 +80,6 @@ button.default {
   font-size: 18px;
   padding: 0px 24px;
   position: relative;
-  transform: translateX(-30px);
 }
 
 button.default::after {
