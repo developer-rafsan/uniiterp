@@ -1,0 +1,461 @@
+/* Our Approach to Matchmaking */
+section.our-approach {
+  padding: 250px 0px 0px 0px;
+}
+
+section.our-approach .top {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  padding: 0px 20px;
+}
+
+section.our-approach .top h1 {
+  font-size: clamp(3rem, 5vw, 6.4rem);
+  font-family: var(--primary-font);
+  font-family: 500;
+  line-height: 100%;
+  color: #181514;
+  width: min(488px, 100%);
+}
+
+section.our-approach .top p {
+  font-size: clamp(1.4rem, 2.3vw, 1.8rem);
+  font-family: var(--primary-font);
+  font-family: 400;
+  line-height: 140%;
+  color: var(--secndary-text-color-gray);
+  width: min(286px, 100%);
+}
+
+section.our-approach .our-story {
+  margin-top: 50px;
+  position: relative;
+}
+
+section.our-approach .our-story img {
+  width: min(100vw, 100%);
+}
+
+section.our-approach .our-story .our-story-content {
+  background: var(--secndary-bg-color);
+  padding: 24px 22px;
+  position: absolute;
+  bottom: 60px;
+  right: 0;
+  width: min(567px, 70%);
+  border-radius: 20px 0px 0px 20px;
+}
+
+section.our-approach .our-story .our-story-content h3 {
+  font-size: clamp(2rem, 4vw, 3.8rem);
+  font-family: var(--primary-font);
+  font-family: 500;
+  line-height: 100%;
+  color: var(--primary-text-color);
+}
+
+section.our-approach .our-story .our-story-content p {
+  font-size: clamp(1.4rem, 2.3vw, 1.8rem);
+  font-family: var(--primary-font);
+  font-family: 400;
+  line-height: 140%;
+  color: var(--primary-text-color);
+  margin-top: 10px;
+}
+
+/* Our Methodology */
+section.methodology {
+  padding: 100px 20px 60px 20px;
+}
+
+section.methodology .content {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  gap: 40px;
+}
+
+section.methodology .content :is(.left, .right) {
+  max-width: 538px;
+  width: 100%;
+}
+
+section.methodology .content .left h1 {
+  font-size: clamp(3rem, 6vw, 6.4rem);
+  font-family: var(--primary-font);
+  font-family: 500;
+  line-height: 100%;
+  color: var(--secndary-text-color-dark);
+}
+
+section.methodology .content .right p {
+  font-size: clamp(1.4rem, 2.3vw, 1.8rem);
+  font-family: var(--primary-font);
+  font-family: 400;
+  line-height: 140%;
+  color: var(--secndary-text-color-gray);
+}
+
+section.methodology .content .right h2 {
+  font-size: clamp(2rem, 3vw, 3.8rem);
+  font-family: var(--primary-font);
+  font-family: 500;
+  line-height: 140%;
+  color: var(--secndary-text-color-dark);
+  margin-top: 40px;
+}
+
+/* counter section */
+section.counter .content {
+  padding: 34px 20px 100px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+section.counter .content div {
+  width: min(340px, 46%);
+  display: flex;
+  flex-direction: column;
+}
+
+section.counter p {
+  font-size: clamp(1.4rem, 2.3vw, 1.8rem);
+  font-family: var(--primary-font);
+  font-family: 400;
+  line-height: 140%;
+  color: var(--secndary-text-color-gray);
+}
+
+section.counter h1 {
+  font-size: 7.8rem;
+  font-size: clamp(2.4rem, 7vw, 7.8rem);
+  font-family: var(--primary-font);
+  font-family: 400;
+  line-height: 120%;
+  color: #6b1810;
+  margin-top: 20px;
+}
+
+/* Guidance & Support */
+section.support {
+  padding: 100px 20px 100px 20px;
+}
+
+section.support .content {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  gap: 40px;
+}
+
+section.support .content .left {
+  width: min(558px, 100%);
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+section.support .content .left .box {
+  padding: 40px;
+  background: #f9efe7;
+  display: flex;
+  align-items: start;
+  border-radius: 30px;
+  gap: 16px;
+}
+
+section.support .content .left .box img {
+  width: 48px;
+}
+
+section.support .content .left .box h4 {
+  font-size: clamp(1.6rem, 3.5vw, 2rem);
+  font-family: var(--primary-font);
+  font-family: 500;
+  line-height: 28px;
+  color: var(--secndary-text-color-dark);
+}
+
+section.support .content .left .box p {
+  font-size: clamp(1.4rem, 3vw, 1.8rem);
+  font-family: var(--primary-font);
+  font-family: 400;
+  line-height: 140%;
+  color: var(--secndary-text-color-gray);
+  margin-top: 10px;
+}
+
+section.support .content .right {
+  width: 538px;
+  width: clamp(100%, 100%, 538px);
+}
+
+section.support .content .right h1 {
+  font-size: clamp(3rem, 5vw, 6.4rem);
+  font-family: var(--primary-font);
+  font-family: 500;
+  line-height: 100%;
+  color: var(--secndary-text-color-dark);
+}
+
+section.support .content .right p {
+  font-size: clamp(1.4rem, 2.3vw, 1.8rem);
+  font-family: var(--primary-font);
+  font-family: 400;
+  line-height: 140%;
+  color: var(--secndary-text-color-gray);
+  margin-top: 20px;
+}
+
+/* Ready to Begin Your Journey? */
+section.journey {
+  padding: 100px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+section.journey h1 {
+  font-size: clamp(3rem, 5vw, 6.4rem);
+  font-family: var(--primary-font);
+  font-family: 500;
+  line-height: 100%;
+  color: var(--secndary-text-color-dark);
+  text-align: center;
+}
+
+section.journey p {
+  font-size: clamp(1.4rem, 2.3vw, 1.8rem);
+  font-family: var(--primary-font);
+  font-family: 400;
+  line-height: 140%;
+  color: var(--secndary-text-color-gray);
+  max-width: 626px;
+  width: 100%;
+  margin-top: 10px;
+  text-align: center;
+}
+
+section.journey button {
+  margin-top: 40px;
+  padding-left: 30px;
+}
+
+section.journey button,
+section.journey button::after {
+  color: var(--primary-text-color);
+}
+
+/* The Choice That Matters */
+section.choice-matters {
+  padding: 120px 20px;
+}
+
+section.choice-matters .content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+section.choice-matters .content :is(.left, .right) {
+  width: 100%;
+}
+
+section.choice-matters .content .left img {
+  width: 100%;
+  border-radius: 40px;
+}
+
+section.choice-matters .content .right h1 {
+  font-size: clamp(3rem, 6vw, 6.4rem);
+  font-family: var(--primary-font);
+  font-weight: 500;
+  line-height: 100%;
+  color: var(--secndary-text-color-dark);
+  max-width: 430px;
+  width: 100%;
+}
+
+section.choice-matters .content .right .paragrap {
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+section.choice-matters .content .right p {
+  font-size: clamp(1.6rem, 2.3vw, 1.8rem);
+  font-family: var(--primary-font);
+  font-family: 400;
+  line-height: 27px;
+  color: var(--secndary-text-color-gray);
+}
+
+section.choice-matters .content .right button {
+  margin-top: 30px;
+  padding-left: 32px;
+}
+
+section.choice-matters .content button,
+section.choice-matters .content button::after {
+  color: var(--primary-text-color);
+}
+
+@media screen and (max-width: 1260px) {
+  section.choice-matters .content .left img {
+    height: 600px;
+    object-fit: cover;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  /* counter section */
+  section.counter .content {
+    padding: 34px 20px 50px 20px;
+  }
+
+  section.support {
+    padding: 50px 20px 100px 20px;
+  }
+
+  section.support .content .left .box img {
+    width: 38px;
+  }
+
+  section.journey {
+    padding: 50px 20px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  section.support .content {
+    flex-direction: column;
+  }
+
+  section.support .content .left {
+    order: 2;
+  }
+
+  section.support .content .right h1,
+  section.support .content .right p {
+    text-align: center;
+  }
+
+  section.choice-matters .content {
+    flex-direction: column;
+  }
+
+  section.choice-matters .content .left {
+    order: 2;
+  }
+
+  section.choice-matters .content .right {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  section.choice-matters .content .left img {
+    height: 500px;
+  }
+
+  section.choice-matters .content .right h1,
+  section.choice-matters .content .right p {
+    text-align: center;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  section.our-approach {
+    padding: 150px 0px 0px 0px;
+  }
+
+  section.our-approach .top {
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  section.our-approach .top h1 {
+    text-align: center;
+  }
+
+  section.our-approach .top p {
+    text-align: center;
+    margin-top: 16px;
+  }
+
+  section.our-approach .our-story .our-story-content {
+    width: min(600px, 90%);
+    bottom: 0px;
+    right: 50%;
+    border-radius: 10px;
+    transform: translate(50%, 60%);
+  }
+
+  section.methodology {
+    padding: 150px 20px 60px 20px;
+  }
+
+  section.methodology .content .left h1,
+  section.methodology .content .right p,
+  section.methodology .content .right h2 {
+    text-align: center;
+  }
+
+  section.methodology .content {
+    flex-direction: column;
+  }
+
+  section.counter .content {
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+
+  section.counter .content div {
+    align-items: center;
+    max-width: 40%;
+  }
+
+  section.counter p {
+    text-align: center;
+  }
+
+  section.support .content .left .box {
+    padding: 20px;
+    border-radius: 20px;
+  }
+
+  section.journey {
+    padding: 0px 20px;
+  }
+
+  section.journey button {
+    width: 300px;
+    font-size: 16px;
+    padding-left: 23px;
+  }
+
+  section.journey button::after {
+    right: 15px;
+  }
+
+  section.choice-matters .content .left img {
+    height: 400px;
+  }
+
+  section.choice-matters .content .right {
+    width: 100%;
+  }
+}

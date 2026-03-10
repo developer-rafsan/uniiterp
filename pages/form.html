@@ -1,0 +1,757 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Uniite Matchmaking - Profile Form</title>
+
+    <!-- fave incons -->
+    <link rel="shortcut icon" href="../media/fav.svg" type="image/x-icon" />
+
+    <!-- link css global -->
+    <link rel="stylesheet" href="../css/global.css" />
+    <link rel="stylesheet" href="../css/form.css" />
+
+    <!-- font awesome link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- header sertion -->
+    <header>
+      <div class="content" id="wrap">
+        <!-- left site -->
+        <div class="left-site">
+          <a href="../index.html"
+            ><img class="logo-update" src="../media/logo-black.png" alt="logo"
+          /></a>
+          <a href="../index.html"
+            ><img class="logo-curant" src="../media/logo-black.png" alt="logo"
+          /></a>
+        </div>
+
+        <!-- right site -->
+        <div class="right-site">
+          <button id="menu-open-btn">
+            <img src="../media/menu-black.svg" alt="menu icon" />
+          </button>
+        </div>
+      </div>
+      <!-- header drop down menu -->
+      <div class="drop-down-menu" id="drop-down-menu">
+        <div class="top">
+          <div id="wrap">
+            <a href="../index/html"
+              ><img class="logo" src="../media/logo.png" alt="logo"
+            /></a>
+            <img
+              id="menu-close-btn"
+              class="menu-close-icons"
+              src="../media/menu-close-icons.svg"
+              alt="menu close icons"
+            />
+          </div>
+          <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../pages/our-approach.html">Our Approach</a></li>
+            <li><a href="../pages/pricing.html">Pricing</a></li>
+            <li><a href="../pages/blog.html">Blog</a></li>
+            <li><a href="../pages/login.html">Account</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <!-- form section -->
+    <section id="profile-form" class="profile-form">
+      <div class="content" id="wrap">
+        <form id="multiStepForm">
+          <!-- step 1 -->
+          <div class="step step-1 active">
+            <h1>Create your profile</h1>
+
+            <div class="personal-info">
+              <h4>Personal Information</h4>
+              <div class="cal-2">
+                <div class="input-fill">
+                  <label for="fastName">Fast Name</label>
+                  <div>
+                    <input type="text" id="fastName" placeholder="Fast Name" />
+                  </div>
+                </div>
+                <div class="input-fill">
+                  <label for="lastName">Last Name </label>
+                  <div>
+                    <input type="text" id="lastName" placeholder="Last Name " />
+                  </div>
+                </div>
+              </div>
+
+              <div class="cal-3">
+                <div class="input-fill">
+                  <label for="dateOfBirth">Date of Birth</label>
+                  <div>
+                    <input
+                      type="date"
+                      id="dateOfBirth"
+                      placeholder="Date of Birth"
+                    />
+                  </div>
+                </div>
+
+                <div class="input-fill">
+                  <label for="gender">Gender</label>
+                  <div class="select-wrapper">
+                    <select id="gender" name="gender">
+                      <option value="Male">Male</option>
+                      <option value="Female">Female</option>
+                      <option value="Other">Other</option>
+                    </select>
+                  </div>
+                </div>
+
+                <div class="input-fill">
+                  <label for="maritalStatus">Marital Status</label>
+                  <div class="select-wrapper">
+                    <select id="maritalStatus" name="maritalStatus">
+                      <option value="Never Married">Never Married</option>
+                      <option value="Divorced">Divorced</option>
+                      <option value="Widowed">Widowed</option>
+                      <option value="Awaiting Divorce">Awaiting Divorce</option>
+                      <option value="Annulled">Annulled</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+
+              <div class="cal-3">
+                <div class="input-fill">
+                  <label for="feetInches">Height (Feet & Inches)</label>
+                  <div class="select-wrapper">
+                    <select id="feetInches" name="feetInches">
+                      <option>Select</option>
+                    </select>
+                  </div>
+                </div>
+
+                <div class="input-fill">
+                  <label for="weight">Weight</label>
+                  <div>
+                    <input
+                      type="text"
+                      id="weight"
+                      placeholder="Current weight"
+                    />
+                  </div>
+                </div>
+
+                <div class="input-fill">
+                  <label for="currentStatus"
+                    >Current Status ( Ex. = H1,Pr, Student Visa)</label
+                  >
+                  <div>
+                    <input
+                      type="text"
+                      id="currentStatus"
+                      placeholder="Citizen"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="Address">
+              <h4>Address</h4>
+              <div class="cal-3">
+                <div class="input-fill">
+                  <label for="country">Select Country</label>
+                  <div class="select-wrapper">
+                    <select id="country" name="country">
+                      <option>Select</option>
+                    </select>
+                  </div>
+                </div>
+
+                <div class="input-fill">
+                  <label for="state">Select State</label>
+                  <div class="select-wrapper">
+                    <select id="state" name="state">
+                      <option>Select</option>
+                    </select>
+                  </div>
+                </div>
+
+                <div class="input-fill">
+                  <label for="city">Select City</label>
+                  <div class="select-wrapper">
+                    <select id="city" name="city">
+                      <option>Select</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+
+              <div class="cal-2">
+                <div class="input-fill">
+                  <label for="addressType">Address Type</label>
+                  <div class="select-wrapper">
+                    <select id="addressType" name="addressType">
+                      <option>Select</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="input-fill">
+                  <label for="homeAddress">Current Home Address</label>
+                  <div>
+                    <input
+                      type="text"
+                      id="homeAddress"
+                      placeholder="Search home address"
+                    />
+                  </div>
+                </div>
+              </div>
+
+              <div class="cal-2">
+                <div class="input-fill">
+                  <label for="citizenship">Citizenship</label>
+                  <div class="select-wrapper">
+                    <select id="citizenship" name="citizenship">
+                      <option>Select</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="input-fill">
+                  <label for="zipCode">Enter Zip Code</label>
+                  <div>
+                    <input type="text" id="zipCode" placeholder="Zip Code" />
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="contact">
+              <h4>Contact</h4>
+              <div class="cal-2">
+                <div class="input-fill">
+                  <label for="email">Email</label>
+                  <div>
+                    <input type="email" id="email" placeholder="Typ email" />
+                  </div>
+                </div>
+
+                <div class="input-fill">
+                  <label for="number">Number</label>
+                  <div>
+                    <input type="number" id="number" placeholder="+001" />
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="language">
+              <h4>Language</h4>
+              <div class="cal-2">
+                <div class="input-fill">
+                  <label for="motherTongue">Mother Tongue</label>
+                  <select id="motherTongue" name="motherTongue">
+                    <option>Select</option>
+                  </select>
+                </div>
+
+                <div class="input-fill">
+                  <label for="spoken">Fluent spoken languages</label>
+                  <div>
+                    <input type="text" id="spoken" placeholder="+001" />
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="buttonanddod">
+              <div class="dots">
+                <div class="dot active"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+              </div>
+              <div class="buttons">
+                <button type="button" class="cancel-btn">Cancel</button>
+                <button type="button" class="next-btn">Next</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- step 2 -->
+          <div class="step step-2">
+            <h1>Background & Beyond</h1>
+
+            <div class="educational">
+              <h4>Educational Background</h4>
+              <div class="cal-2">
+                <div class="input-fill">
+                  <label for="school">School</label>
+                  <div>
+                    <input type="text" id="school" placeholder="School name" />
+                  </div>
+                </div>
+
+                <div class="input-fill">
+                  <label for="levelOfEducation"
+                    >Highest Level of Education</label
+                  >
+                  <div class="select-wrapper">
+                    <select id="levelOfEducation" name="levelOfEducation">
+                      <option>Select</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+
+              <div class="cal-2">
+                <div class="input-fill">
+                  <label for="fieldOfStudy">Field of Study</label>
+
+                  <div class="select-wrapper">
+                    <select id="fieldOfStudy" name="fieldOfStudy">
+                      <option>Select</option>
+                    </select>
+                  </div>
+                </div>
+
+                <div class="input-fill">
+                  <label for="nameOfInstitution">Name of Institution</label>
+                  <div>
+                    <input
+                      type="text"
+                      id="nameOfInstitution"
+                      placeholder="Institution name "
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="lifestyle">
+              <h4>Lifestyle and Habits</h4>
+              <div class="cal-3">
+                <div class="input-fill">
+                  <label for="dietaryPreferences">Dietary Preferences</label>
+                  <div class="select-wrapper">
+                    <select id="dietaryPreferences" name="dietaryPreferences">
+                      <option>Select</option>
+                    </select>
+                  </div>
+                </div>
+
+                <div class="input-fill">
+                  <label for="smokingVaping">Smoking/Vaping</label>
+                  <div class="select-wrapper">
+                    <select id="smokingVaping" name="smokingVaping">
+                      <option>Select</option>
+                    </select>
+                  </div>
+                </div>
+
+                <div class="input-fill">
+                  <label for="drinking">Drinking</label>
+                  <div class="select-wrapper">
+                    <select id="drinking" name="drinking">
+                      <option>Select</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+
+              <div class="cal-2">
+                <div class="input-fill">
+                  <label for="weedCannabis">Weed/Cannabis</label>
+                  <div class="select-wrapper">
+                    <select id="weedCannabis" name="weedCannabis">
+                      <option>Select</option>
+                    </select>
+                  </div>
+                </div>
+
+                <div class="input-fill">
+                  <label for="medicalCondition"
+                    >Minor/Major Medical Condition</label
+                  >
+                  <div class="select-wrapper">
+                    <select id="medicalCondition" name="medicalCondition">
+                      <option>Select</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="familyDetails">
+              <h4>Family Details</h4>
+              <div class="cal-3">
+                <div class="input-fill">
+                  <label for="fatherOccupation">Father's Occupation</label>
+                  <div class="select-wrapper">
+                    <select id="fatherOccupation" name="fatherOccupation">
+                      <option>Select</option>
+                    </select>
+                  </div>
+                </div>
+
+                <div class="input-fill">
+                  <label for="motherOccupation">Mother's Occupation</label>
+                  <div class="select-wrapper">
+                    <select id="motherOccupation" name="motherOccupation">
+                      <option>Select</option>
+                    </select>
+                  </div>
+                </div>
+
+                <div class="input-fill">
+                  <label for="siblings">Siblings</label>
+                  <div class="select-wrapper">
+                    <select id="siblings" name="siblings">
+                      <option>Select</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+
+              <div class="cal-2">
+                <div class="input-fill">
+                  <label for="weedCannabis">Weed/Cannabis</label>
+                  <div class="select-wrapper">
+                    <select id="weedCannabis" name="weedCannabis">
+                      <option>Select</option>
+                    </select>
+                  </div>
+                </div>
+
+                <div class="input-fill">
+                  <label for="medicalCondition"
+                    >Minor/Major Medical Condition</label
+                  >
+                  <div class="select-wrapper">
+                    <select id="medicalCondition" name="medicalCondition">
+                      <option>Select</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="religion">
+              <h4>Religion</h4>
+              <div class="cal-2">
+                <div class="input-fill">
+                  <label for="religion">Religion</label>
+                  <div class="select-wrapper">
+                    <select id="religion" name="religion">
+                      <option>Select</option>
+                    </select>
+                  </div>
+                </div>
+
+                <div class="input-fill">
+                  <label for="subcaste">Caste/Subcaste</label>
+                  <div class="select-wrapper">
+                    <select id="subcaste" name="subcaste">
+                      <option>Select</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="HhbbiesAndinterests">
+              <h4>Hobbies and Interests</h4>
+              <div class="cal-3">
+                <div class="input-fill">
+                  <label for="kids">Want Kids</label>
+                  <div class="select-wrapper">
+                    <select id="kids" name="kids">
+                      <option>Select</option>
+                    </select>
+                  </div>
+                </div>
+
+                <div class="input-fill">
+                  <label for="weekend">Ideal Weekend</label>
+                  <div class="select-wrapper">
+                    <select id="weekend" name="weekend">
+                      <option>Select</option>
+                    </select>
+                  </div>
+                </div>
+
+                <div class="input-fill">
+                  <label for="petPolicy">Pet Policy</label>
+                  <div class="select-wrapper">
+                    <select id="petPolicy" name="petPolicy">
+                      <option>Select</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="buttonanddod">
+              <div class="dots">
+                <div class="dot"></div>
+                <div class="dot active"></div>
+                <div class="dot"></div>
+              </div>
+              <div class="buttons">
+                <button type="button" class="back-btn">Back</button>
+                <button type="button" class="next-btn">Next</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- step 3 -->
+          <div class="step step-3">
+            <h1>The Choice of a Lifetime</h1>
+
+            <!-- Preferred Partner Lifestyle & Habits -->
+            <div class="section">
+              <h4>Preferred Partner Lifestyle & Habits</h4>
+
+              <div class="cal-3">
+                <div class="input-fill">
+                  <label>Preferred Partner Dietary Preferences</label>
+                  <div class="select-wrapper">
+                    <select>
+                      <option>Non-Vegetarian</option>
+                    </select>
+                  </div>
+                </div>
+
+                <div class="input-fill">
+                  <label>Preferred Partner Smoking/Vaping</label>
+                  <div class="select-wrapper">
+                    <select>
+                      <option>Regular smoker</option>
+                    </select>
+                  </div>
+                </div>
+
+                <div class="input-fill">
+                  <label>Preferred Partner Drinking</label>
+                  <div class="select-wrapper">
+                    <select>
+                      <option>Regular drinker</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+
+              <div class="cal-1">
+                <div class="input-fill full">
+                  <label>Describe Ideal Partner in a few words</label>
+                  <textarea
+                    placeholder="Looking for a kind-hearted, career-oriented partner who values family traditions"
+                  ></textarea>
+                </div>
+              </div>
+
+              <div class="cal-1">
+                <div class="input-fill">
+                  <label>How Did You Hear About Unite Matchmaking</label>
+                  <div class="select-wrapper">
+                    <select>
+                      <option>Hide</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Preferred Partner Preferences -->
+            <div class="section">
+              <h4>Preferred Partner Preferences (PPP)</h4>
+
+              <div class="cal-3">
+                <div class="input-fill">
+                  <label>Preferred Gender</label>
+                  <div class="select-wrapper">
+                    <select>
+                      <option>Female</option>
+                    </select>
+                  </div>
+                </div>
+
+                <div class="input-fill">
+                  <label>Preferred Age Range</label>
+                  <div class="select-wrapper">
+                    <select>
+                      <option>21–26</option>
+                    </select>
+                  </div>
+                </div>
+
+                <div class="input-fill">
+                  <label>Preferred Marital Status</label>
+                  <div class="select-wrapper">
+                    <select>
+                      <option>Never Married</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+
+              <div class="cal-3">
+                <div class="input-fill">
+                  <label>Preferred Geographical Location</label>
+                  <div class="select-wrapper">
+                    <select>
+                      <option>Never Married</option>
+                    </select>
+                  </div>
+                </div>
+
+                <div class="input-fill">
+                  <label>Date of Birth</label>
+                  <input type="date" />
+                </div>
+
+                <div class="input-fill">
+                  <label>Time of Birth</label>
+                  <input type="time" />
+                </div>
+              </div>
+            </div>
+
+            <div class="buttonanddod">
+              <div class="dots">
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot active"></div>
+              </div>
+              <div class="buttons">
+                <button type="submit" class="save-btn">Save</button>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <!-- footer section -->
+    <footer>
+      <div id="wrap">
+        <div class="footer-top">
+          <div class="left">
+            <img src="../media/logo.png" alt="logo" />
+            <p>
+              Connecting hearts, building futures. Your journey to lasting love
+              begins here.
+            </p>
+            <form>
+              <input type="text" placeholder="Enter your email" />
+              <button type="submit">Submit</button>
+            </form>
+          </div>
+          <div class="right">
+            <div class="right-top">
+              <div class="footer-socialmedia">
+                <p>Social Media</p>
+                <div class="icons">
+                  <img
+                    src="../media/socialMedia/Link.png"
+                    alt="footer social media"
+                  />
+                  <img
+                    src="../media/socialMedia/Link-1.png"
+                    alt="footer social media"
+                  />
+                  <img
+                    src="../media/socialMedia/Link-2.png"
+                    alt="footer social media"
+                  />
+                  <img
+                    src="../media/socialMedia/Link-3.png"
+                    alt="footer social media"
+                  />
+                  <img
+                    src="../media/socialMedia/Link-4.png"
+                    alt="footer social media"
+                  />
+                </div>
+              </div>
+              <div>
+                <button
+                  style="
+                    --url: url(&quot;../media/buttonBG.png&quot;);
+                    --width: 262px;
+                  "
+                  class="advance"
+                >
+                  Get Started
+                </button>
+              </div>
+            </div>
+            <div class="right-menu">
+              <div class="menu-1">
+                <h4>Menu</h4>
+                <hr />
+                <ul>
+                  <li>How we work</li>
+                  <li>About us</li>
+                  <li>Pricing/FAQ</li>
+                  <li>Journal</li>
+                </ul>
+              </div>
+              <div class="menu-2">
+                <h4>Cities</h4>
+                <hr />
+                <ul>
+                  <li>Toronto</li>
+                  <li>york</li>
+                  <li>Mumbai</li>
+                  <li>Bangalor</li>
+                </ul>
+              </div>
+              <div class="menu-3">
+                <h4>Contact</h4>
+                <hr />
+                <ul>
+                  <li>
+                    <span>Email</span> <span>:</span>
+                    <span>uniiep005@gmailcom</span>
+                  </li>
+                  <li>
+                    <span>Toronto</span> <span>:</span>
+                    <span>1-647988-3159</span>
+                  </li>
+                  <li>
+                    <span>Bangalore</span> <span>:</span>
+                    <span>+91 80500 36648</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="hr"></div>
+        <div class="footer-bottom">
+          <p>
+            &copy; 2025 Uniite Matchmaking. All Rights Reserved. Terms of
+            service have been updated as of February 1st, 2025.
+          </p>
+          <ul>
+            <li>Privacy Policy</li>
+            <li>Terms & Conditions</li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <!-- link script file -->
+    <script type="module" src="../js/script.js"></script>
+    <script type="module" src="../js/form.js"></script>
+  </body>
+</html>

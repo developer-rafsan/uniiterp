@@ -1,0 +1,643 @@
+/* =============================================
+-------- hero section ---------
+================================================ */
+section.hero {
+  min-height: 1095px;
+  height: 100%;
+  background: url(../media/hero-bg-3331.jpg) center / cover no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+
+section.hero .content {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: linear-gradient(to bottom, #6b060600 0%, #6b0606 100%);
+  padding: 0 20px 96px;
+}
+
+section.hero .content h1 {
+  font-size: clamp(2rem, 7vw, 8.4rem);
+  line-height: 100%;
+  font-family: var(--primary-font);
+  font-weight: 500;
+  color: var(--primary-text-color);
+  text-align: center;
+}
+
+section.hero button {
+  margin-top: 30px;
+}
+
+/* =============================================
+-------- bird section ---------
+================================================ */
+section.bird {
+  background: linear-gradient(#6b0606, #fdf3ec);
+  padding: 185px 20px;
+}
+
+section.bird .content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 112px;
+}
+
+section.bird .counter {
+  text-align: center;
+}
+
+section.bird .content h4 {
+  font-size: clamp(2rem, 5vw, 7.4rem);
+  font-family: var(--primary-font);
+  line-height: 100%;
+  font-weight: 400;
+  color: var(--primary-text-color);
+}
+
+section.bird .content p {
+  font-size: clamp(1.2rem, 1.5vw, 2rem);
+  font-weight: 400;
+  font-family: var(--primary-font);
+  line-height: 120%;
+  color: var(--primary-text-color);
+  margin-top: 16px;
+}
+
+section.bird .center {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+section.bird .center div:nth-child(2) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section.bird .center img {
+  width: clamp(150px, 100%, 668px);
+  /* animation: birdRotate 12s linear infinite; */
+}
+
+@keyframes birdRotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* =============================================
+-------- real people ---------
+================================================ */
+section.realPeople {
+  padding: 100px 0px 0px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: var(--primary-bg-color);
+}
+
+section.realPeople h1 {
+  font-family: var(--primary-font);
+  font-size: 6.4rem;
+  font-size: clamp(2.8rem, 5vw, 6.4rem);
+  font-weight: 500;
+  text-align: center;
+}
+
+section.realPeople .card-group {
+  margin-top: 80px;
+  width: 100%;
+}
+
+section.realPeople .card {
+  display: flex;
+}
+
+section.realPeople .card .left {
+  display: flex;
+  flex-direction: column;
+  align-items: var(--aline);
+}
+
+section.realPeople .card .left,
+section.realPeople .card .right {
+  width: 100%;
+  min-height: 400px;
+  order: var(--order);
+}
+
+section.realPeople .card:nth-child(odd) .left .content {
+  padding: 196px 20px 56px 20px;
+}
+
+section.realPeople .card:nth-child(even) .left .content {
+  padding: 196px 0px 56px 60px;
+}
+
+section.realPeople .card .left .content {
+  padding: 196px 0px 56px 0px;
+  width: min(660px, 100%);
+}
+
+section.realPeople .card img {
+  width: min(540px, 100%);
+}
+
+section.realPeople .card .left h3 {
+  font-family: var(--primary-font);
+  font-weight: 400;
+  font-size: 5.4rem;
+  font-size: clamp(2.5rem, 5vw, 5.4rem);
+  color: var(--secndary-text-color-dark);
+  line-height: 100%;
+  margin-top: 60px;
+  width: 100%;
+}
+
+section.realPeople .card:nth-child(even) .left :is(h3, p) {
+  color: var(--primary-text-color);
+}
+
+section.realPeople .card .left p {
+  font-size: 2.4rem;
+  font-size: clamp(1.4rem, 3vw, 2.4rem);
+  font-weight: 400;
+  font-family: var(--primary-font);
+  line-height: 140%;
+  color: var(----secndary-text-color-gray);
+  margin-top: 10px;
+  width: 100%;
+  text-align: start;
+  color: rgba(106, 106, 106, 1);
+}
+
+section.realPeople .card:nth-child(even) .left {
+  background: var(--secndary-bg-color);
+}
+
+section.realPeople .card:nth-child(1) .right {
+  background: url("../media/2151220012.jpg") no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+section.realPeople .card:nth-child(2) .right {
+  background: url("../media/realpeoplecard2.jpg") no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+section.realPeople .card:nth-child(3) .right {
+  background: url("../media/realpeoplecard3.jpg") no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+section.realPeople .card:nth-child(4) .right {
+  background: url("../media/realpeoplecard4.jpg") no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+section.realPeople button {
+  color: var(--primary-text-color);
+  margin-top: 120px;
+}
+
+/* =============================================
+-------- slider section ---------
+================================================ */
+section.infinite-slider {
+  background: var(--primary-bg-color);
+  padding: 60px 0px 120px 0px;
+}
+
+section.infinite-slider .slider {
+  overflow: hidden;
+  width: 100%;
+}
+
+section.infinite-slider .slider:nth-child(2) {
+  margin-top: 30px;
+}
+
+section.infinite-slider .slider-wraper {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  will-change: transform;
+}
+
+section.infinite-slider .first .slider-wraper {
+  justify-content: end;
+}
+
+section.infinite-slider .secend .slider-wraper {
+  justify-content: start;
+}
+
+section.infinite-slider .slider .card {
+  min-width: 562px;
+  height: 350px;
+  border-radius: 36px;
+  overflow: hidden;
+}
+
+section.infinite-slider .slider .card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* =============================================
+-------- Member Reflections ---------
+================================================ */
+section.member-reflections {
+  padding: 60px 20px 70px 20px;
+  background: var(--primary-bg-color);
+}
+
+section.member-reflections h1 {
+  font-size: clamp(2.8rem, 5vw, 6.4rem);
+  font-family: var(--primary-font);
+  font-weight: 500;
+  text-align: start;
+}
+
+section.member-reflections .swiper {
+  margin-top: 40px;
+}
+
+section.member-reflections .swiper-wrapper .card {
+  background: var(--secndary-bg-color);
+  padding: 42px;
+  border-radius: 42px;
+}
+
+section.member-reflections .swiper-wrapper .card img {
+  padding: 16px 11px;
+  width: min(50px, 100%);
+}
+
+section.member-reflections .swiper-wrapper .card p {
+  font-size: clamp(1.8rem, 2.5vw, 3.2rem);
+  line-height: 120%;
+  font-family: var(--primary-font);
+  color: var(--primary-text-color);
+  font-weight: 400;
+  margin-top: 10px;
+  text-align: start;
+}
+
+section.member-reflections .swiper-wrapper .card .bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: clamp(1.4rem, 2.3vw, 2.4rem);
+  font-weight: 400;
+  margin-top: 57px;
+  font-family: var(--primary-font);
+  color: var(--primary-text-color);
+}
+
+section.member-reflections .slider-buttons {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 10px;
+}
+
+section.member-reflections button {
+  height: 54px;
+  width: 54px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--secndary-bg-color);
+  border-radius: 50%;
+  color: var(--primary-text-color);
+  margin-top: 40px;
+  font-size: clamp(1.2rem, 2.3vw, 2.2rem);
+}
+
+section.member-reflections .button-prev {
+  background: #efe7e1;
+  position: relative;
+  color: #6b0606;
+}
+
+section.member-reflections .button-prev::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translate(80%, -50%);
+  background: url("../media/buttonshap.png") no-repeat center center;
+  background-size: contain;
+  width: 20px;
+  height: 100%;
+}
+
+/* ------------------------------------- */
+section.slider {
+  padding: 100px 20px;
+}
+
+section #slider-wrap {
+  max-width: 1410px;
+  width: 100%;
+  margin: auto;
+}
+
+section h1 {
+  font-size: clamp(2.8rem, 5vw, 6.4rem);
+  font-family: var(--primary-font);
+  font-weight: 500;
+  text-align: center;
+  line-height: 110%;
+}
+
+section p {
+  font-size: clamp(14px, 3.2vw, 2rem);
+  font-family: var(--primary-font);
+  font-weight: 400;
+  text-align: center;
+  line-height: 110%;
+  margin-top: 10px;
+  color: rgba(106, 106, 106, 1);
+}
+
+section.slider .swiper {
+  width: 100%;
+  margin-top: 40px;
+  padding-bottom: 64px;
+}
+
+section.slider .swiper-slide {
+  width: 100%;
+  min-width: 625px;
+  height: 662px;
+  border-radius: 53px;
+  overflow: hidden;
+  position: relative;
+}
+
+section.slider .swiper-slide p {
+  position: absolute;
+  bottom: 46px;
+  left: 50%;
+  transform: translateX(-50%);
+  max-width: 561px;
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  font-size: clamp(16px, 2.5vw, 3.2rem);
+  color: #fdf3ec;
+  z-index: 9;
+  opacity: 0;
+  transition: 0.3s;
+  padding: 0px 20px;
+}
+
+section.slider .swiper-slide-active p {
+  opacity: 1;
+}
+
+@media screen and (max-width: 1380px) {
+  section.slider .swiper-slide {
+    height: 500px;
+    min-width: unset;
+    max-width: 625px;
+    border-radius: 24px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  section.slider .swiper-slide {
+    height: 400px;
+    border-radius: 24px;
+  }
+}
+
+/* Mobile */
+@media screen and (max-width: 768px) {
+  section.slider .swiper-slide {
+    height: 380px;
+    border-radius: 24px;
+  }
+}
+
+/* Small mobile */
+@media screen and (max-width: 480px) {
+  section.slider .swiper-slide {
+    height: 225px;
+    border-radius: 18px;
+  }
+}
+
+section.slider .slide-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+section.slider .swiper-pagination-bullet {
+  background-color: rgb(174, 168, 164);
+  height: 14px;
+  width: 14px;
+  margin: 0 6px !important;
+}
+
+section.slider .swiper-pagination-bullet-active {
+  background-color: rgba(107, 6, 6, 1);
+  height: 20px;
+  width: 20px;
+}
+
+section.slider .button-col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 44px;
+}
+
+section.slider button {
+  padding: 0px 40px;
+  color: #fff;
+}
+
+section.slider button::after {
+  right: 27px;
+}
+
+/* ------------------------------ */
+
+/* ------------------------------ */
+@media screen and (max-width: 1260px) {
+  section.realPeople .card:nth-child(even) .left .content {
+    padding: 196px 20px 56px 20px;
+  }
+
+  footer .footer-top .right .right-menu {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+
+  footer .footer-top .right .right-menu .menu-1,
+  footer .footer-top .right .right-menu .menu-2 {
+    width: min(100%, 100%);
+  }
+
+  footer .footer-top .right .right-menu .menu-3 {
+    grid-column: 1 / 3;
+    width: min(100%, 100%);
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  section.hero {
+    min-height: 850px;
+  }
+  section.bird {
+    padding: 100px 20px;
+  }
+
+  section.bird .center .counter:nth-child(1) p {
+    text-align: start;
+  }
+
+  section.bird .center .counter:nth-child(3) p {
+    text-align: end;
+  }
+
+  section.member-reflections .swiper-wrapper .card {
+    padding: 30px;
+    border-radius: 30px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  section.realPeople .card:nth-child(odd) .left .content {
+    padding: 60px 20px 20px 20px;
+  }
+
+  section.realPeople .card:nth-child(even) .left .content {
+    padding: 60px 20px 20px 20px;
+  }
+
+  section.infinite-slider .slider .card {
+    min-width: 450px;
+    height: 300px;
+  }
+
+  section.member-reflections .swiper-wrapper .card {
+    padding: 20px;
+    border-radius: 20px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  section.hero {
+    min-height: 750px;
+    background: url(../media/02.jpg) center / cover no-repeat;
+  }
+  section.bird .content {
+    gap: 40px;
+  }
+
+  section.realPeople .card .left h3 {
+    margin-top: 40px;
+  }
+
+  /* ---------------------------------------------------------------------- */
+
+  section.realPeople .card .left,
+  section.realPeople .card .right {
+    min-height: auto;
+  }
+
+  section.realPeople .card:nth-child(odd) .left,
+  section.realPeople .card:nth-child(even) .left {
+    width: 60%;
+  }
+
+  section.realPeople .card:nth-child(odd) .right,
+  section.realPeople .card:nth-child(even) .right {
+    width: 40%;
+  }
+
+  section.realPeople .card .content {
+    position: relative;
+  }
+
+  section.realPeople .card .content img {
+    position: absolute;
+    width: 90%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+  }
+
+  section.realPeople .card .left h3,
+  section.realPeople .card .left p {
+    position: relative;
+    text-align: center;
+    z-index: 2;
+  }
+
+  section.infinite-slider {
+    padding: 60px 0px 60px 0px;
+  }
+
+  section.infinite-slider .slider .card {
+    min-width: 300px;
+    height: 200px;
+  }
+
+  section.member-reflections h1 {
+    text-align: center;
+  }
+
+  section.member-reflections .slider-buttons {
+    justify-content: center;
+  }
+
+  section.realPeople button {
+    margin-top: 60px;
+  }
+
+  section.slider {
+    padding: 0px 20px 100px 20px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  section.realPeople .card .left h3 {
+    font-size: 1.8rem;
+  }
+
+  section.realPeople .card .left p {
+    font-size: 1.2rem;
+  }
+
+  section.realPeople .card:nth-child(odd) .left .content {
+    padding: 20px 10px 20px 10px;
+  }
+
+  section.realPeople .card:nth-child(even) .left .content {
+    padding: 20px 10px 20px 10px;
+  }
+}
