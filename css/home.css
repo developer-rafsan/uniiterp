@@ -551,7 +551,7 @@ section.slider button::after {
 @media screen and (max-width: 600px) {
   section.hero {
     min-height: 750px;
-    background: url(../media/02.jpg) center / cover no-repeat;
+    background: url(../media/hero-v-phone.jpg) top center / cover no-repeat;
   }
   section.bird .content {
     gap: 40px;
